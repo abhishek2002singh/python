@@ -57,7 +57,10 @@ This repository contains my notes, practice code, and examples as I explore Pyth
 - [ ] Dictionaries  
 - [ ] Slicing & Indexing  
 - [ ] Operators  
-- [ ] Classes & type checking  
+- [ ] Classes & type checking
+- [ ] function
+- [ ] slice
+- [ ] in build function
 
 ---
 
@@ -70,3 +73,4 @@ This repo is mainly for **self-learning**, but if you have tips or suggestions, 
 ## 📌 Note
 
 This repository is a **work in progress** and will keep evolving as I learn more about Python. Stay tuned! 🚀
+
