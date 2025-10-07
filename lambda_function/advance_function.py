@@ -41,3 +41,63 @@ def check_type(x):
 
 result = list(map(check_type , numbers))
 print(result)
+
+
+# print vowel and consonent 
+
+def check_vowel(c):
+    vowel =[]
+    consonent = []
+    if c.lower() in "aeiou":
+        vowel.append(c)
+        return "vowel" , vowel
+    else:
+        consonent.append(c)
+        return "consonent" , consonent
+    
+words = "AbhishekSiNgh"
+
+result2 = list(map(check_vowel , words))
+print(result2)
+
+
+# print vowel and consonent 
+
+def check_vowel1(c):
+   
+    if c.lower() in "aeiou":
+        vowel1.append(c)
+        return "vowel"
+    else:
+        consonent1.append(c)
+        return "consonent" 
+    
+vowel1 =[]
+consonent1 = []    
+words1 = "AbhishekSiNgh"
+
+result3 = list(map(check_vowel1 , words1))
+print(result3)
+print(vowel1)
+print(consonent1)
+
+
+#  print prime number 
+
+def prime_number( a,b):
+
+    for i in  range(a,b+1):
+       prime = True
+       for j in range(2 , i):
+           if i%j==0:
+               prime= False
+               break
+       if prime == True:
+            print(i)
+
+
+a= int(input("enter a number"))
+b= int(input("enter a number"))
+prime_number(a , b)
+
+           
